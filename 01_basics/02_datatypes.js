@@ -4,6 +4,7 @@
  * null -- typeof(null) is an object
  */
 
+"use strict"; //indicates that this js file will use the latest javascript version available
 //Primitive types
 
 let name = "jereemi" //string
@@ -18,4 +19,5 @@ let state; //undefined
 //object
 
 //if you want to check the type of any variable
-console.log(typeof(temp));
+console.log(typeof(temp)); //object
+console.log(typeof(state)); //undefined
